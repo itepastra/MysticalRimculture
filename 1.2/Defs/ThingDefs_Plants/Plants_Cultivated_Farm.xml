@@ -11,7 +11,7 @@
           <MaxHitPoints>250</MaxHitPoints>
         </statBases>
         <graphicData>
-          <texPath>Things/Plant/PlantSteel</texPath>
+          <texPath>Things/Plant/Crops/MRC_PlantSteel</texPath>
           <graphicClass>Graphic_Random</graphicClass>
         </graphicData>
         <selectable>true</selectable>
