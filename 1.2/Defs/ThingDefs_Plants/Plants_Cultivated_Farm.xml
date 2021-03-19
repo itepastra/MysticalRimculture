@@ -25,11 +25,12 @@
           <harvestYield>5</harvestYield>
           <neverBlightable>true</neverBlightable>
           <sowTags>
+            <li>Ground</li>
             <li>Hydroponic</li>
           </sowTags>
           <sowMinSkill>10</sowMinSkill>
           <sowResearchPrerequisites>
-            <li>Devilstrand</li>
+            <li>MRC_PlantSteel</li>
           </sowResearchPrerequisites>
           <topWindExposure>0.1</topWindExposure>
           <visualSizeRange>0.3~1.0</visualSizeRange>
