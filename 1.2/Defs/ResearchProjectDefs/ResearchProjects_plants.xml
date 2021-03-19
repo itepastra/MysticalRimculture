@@ -5,7 +5,6 @@
 		<defName>MRC_PlantSteel</defName>
 		<label>Steelium</label>
 		<description>A weirdly strong plant</description>
-		<descriptionDiscovered>It also seems to be somewhat resistant to fire.</descriptionDiscovered>
 		<baseCost>1000</baseCost>
 		<techLevel>Medieval</techLevel>
 		<prerequisites>

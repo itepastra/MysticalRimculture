@@ -33,7 +33,7 @@
             <Flammability>1.0</Flammability>
         </statBases>
         <costList>
-            <Wood>3000</Wood>
+            <WoodLog>3000</WoodLog>
             <RawPotatoes>750</RawPotatoes>
             <RawRice>750</RawRice>
             <RawCorn>750</RawCorn>
@@ -43,11 +43,17 @@
             <destroySound>BuildingDestroyed_Metal_Medium</destroySound>
         </building>
         <comps>
+            <li Class="CompProperties_Power">
+              <compClass>CompPowerTrader</compClass>
+              <shortCircuitInRain>false</shortCircuitInRain>
+              <basePowerConsumption>20</basePowerConsumption>
+            </li>
+            <li Class="CompProperties_Flickable"/>
             <li Class="CompProperties_Facility">
                 <statOffsets>
                     <ResearchSpeedFactor>0.1</ResearchSpeedFactor>
                 </statOffsets>
-                <maxSimultaneous>100</maxSimultaneous>
+                <maxSimultaneous>10</maxSimultaneous>
             </li>
         </comps>
         <placeWorkers>
