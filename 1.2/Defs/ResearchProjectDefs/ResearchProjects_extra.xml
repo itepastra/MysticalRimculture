@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <ResearchProjectDef>
+        <defName>MRC_MysticalAnalyzer</defName>
+        <label>mystical analyzer</label>
+        <description>enables construction of the mystical analyzer.</description>
+        <baseCost>4321</baseCost>
+        <techLevel>Medieval</techLevel>
+        <prerequisites>
+            <li>TreeSowing</li>
+            <li>Devilstrand</li>
+            <li>Cocoa</li>
+        </prerequisites>
+    </ResearchProjectDef>
+
+</Defs>
