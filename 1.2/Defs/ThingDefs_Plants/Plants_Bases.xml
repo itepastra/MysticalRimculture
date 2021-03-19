@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <ThingDef ParentName="PlantBaseNonEdible" Name="MRC_PlantBaseMysticalCrops" Abstract="True">
+        <statBases>
+            <Flammability>0.31</Flammability>
+        </statBases>
+    </ThingDef>
+
+</Defs>

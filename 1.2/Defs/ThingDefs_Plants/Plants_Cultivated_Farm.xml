@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <!--Steel Plant-->
+
+    <ThingDef ParentName="MRC_PlantBaseMysticalCrops">
+        <defName>MRC_PlantSteel</defName>
+        <label>Steelium</label>
+        <description>A not very flammable plant that has extraordinary strength.</description>
+        <statBases>
+          <MaxHitPoints>250</MaxHitPoints>
+        </statBases>
+        <graphicData>
+          <texPath>Things/Plant/PlantSteel</texPath>
+          <graphicClass>Graphic_Random</graphicClass>
+        </graphicData>
+        <selectable>true</selectable>
+        <pathCost>69</pathCost>
+        <plant>
+          <growDays>11</growDays>
+          <sowWork>400</sowWork>
+          <dieIfLeafless>false</dieIfLeafless>
+          <harvestTag>Standard</harvestTag>
+          <harvestedThingDef>Steel</harvestedThingDef>
+          <harvestYield>5</harvestYield>
+          <neverBlightable>true</neverBlightable>
+          <sowTags>
+            <li>Hydroponic</li>
+          </sowTags>
+          <sowMinSkill>10</sowMinSkill>
+          <sowResearchPrerequisites>
+            <li>Devilstrand</li>
+          </sowResearchPrerequisites>
+          <topWindExposure>0.1</topWindExposure>
+          <visualSizeRange>0.3~1.0</visualSizeRange>
+          <wildOrder>2</wildOrder>
+        </plant>
+      </ThingDef>
+
+</Defs>
