@@ -43,17 +43,11 @@
             <destroySound>BuildingDestroyed_Metal_Medium</destroySound>
         </building>
         <comps>
-            <li Class="CompProperties_Power">
-              <compClass>CompPowerTrader</compClass>
-              <shortCircuitInRain>false</shortCircuitInRain>
-              <basePowerConsumption>20</basePowerConsumption>
-            </li>
-            <li Class="CompProperties_Flickable"/>
             <li Class="CompProperties_Facility">
                 <statOffsets>
-                    <ResearchSpeedFactor>0.1</ResearchSpeedFactor>
+                    <ResearchSpeedFactor>0.03141592</ResearchSpeedFactor>
                 </statOffsets>
-                <maxSimultaneous>10</maxSimultaneous>
+                <maxSimultaneous>100</maxSimultaneous>
             </li>
         </comps>
         <placeWorkers>
