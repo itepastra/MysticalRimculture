@@ -114,4 +114,42 @@
 			<wildOrder>2</wildOrder>
 		</plant>
 	</ThingDef>
+
+	<!--Plasteel Plant-->
+
+	<ThingDef ParentName="MRC_PlantBaseMysticalCrops">
+		<defName>MRC_PlasteelPlant</defName>
+		<label>Plasteehlius</label>
+		<description>:O, O_o!!</description>
+		<statBases>
+			<MaxHitPoints>999</MaxHitPoints>
+		</statBases>
+		<graphicData>
+			<texPath>Things/Plant/Crops/MRC_PlantSteel</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+		</graphicData>
+		<selectable>true</selectable>
+		<pathCost>100</pathCost>
+		<plant>
+			<growDays>35</growDays>
+			<sowWork>1000</sowWork>
+			<dieIfLeafless>false</dieIfLeafless>
+			<harvestTag>Standard</harvestTag>
+			<harvestedThingDef>Plasteel</harvestedThingDef>
+			<harvestYield>1</harvestYield>
+			<neverBlightable>true</neverBlightable>
+			<sowTags>
+				<li>Ground</li>
+				<li>Hydroponic</li>
+			</sowTags>
+			<fertilitySensitivity>-0.1</fertilitySensitivity>
+			<sowMinSkill>18</sowMinSkill>
+			<sowResearchPrerequisites>
+				<li>MRC_PlantPlasteel</li>
+			</sowResearchPrerequisites>
+			<topWindExposure>0.1</topWindExposure>
+			<visualSizeRange>0.3~1.0</visualSizeRange>
+			<wildOrder>2</wildOrder>
+		</plant>
+	</ThingDef>
 </Defs>

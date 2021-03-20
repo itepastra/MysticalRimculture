@@ -55,4 +55,23 @@
 		</requiredResearchFacilities>
 		<tab>MRC_MysticalPlants</tab>
 	</ResearchProjectDef>
+
+	
+	<!--Plasteel Plant research-->
+
+	<ResearchProjectDef>
+		<defName>MRC_PlantPlasteel</defName>
+		<label>Plasteehlius</label>
+		<description>THE ULTIMATE PLANT!</description>
+		<baseCost>5000</baseCost>
+		<techLevel>Medieval</techLevel>
+		<prerequisites>
+			<li>MRC_MysticalAnalyzer</li>
+			<li>MRC_PlantGold</li>
+		</prerequisites>
+		<requiredResearchFacilities>
+			<li>MRC_MysticalAnalyzer</li>
+		</requiredResearchFacilities>
+		<tab>MRC_MysticalPlants</tab>
+	</ResearchProjectDef>
 </Defs>
