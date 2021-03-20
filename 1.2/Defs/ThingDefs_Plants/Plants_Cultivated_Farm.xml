@@ -49,7 +49,7 @@
 			<MaxHitPoints>75</MaxHitPoints>
 		</statBases>
 		<graphicData>
-			<texPath>Things/Plant/Crops/MRC_PlantSteel</texPath>
+			<texPath>Things/Plant/Crops/MRC_PlantGold</texPath>
 			<graphicClass>Graphic_Random</graphicClass>
 		</graphicData>
 		<selectable>true</selectable>
@@ -87,7 +87,7 @@
 			<MaxHitPoints>150</MaxHitPoints>
 		</statBases>
 		<graphicData>
-			<texPath>Things/Plant/Crops/MRC_PlantSteel</texPath>
+			<texPath>Things/Plant/Crops/MRC_PlantSilver</texPath>
 			<graphicClass>Graphic_Random</graphicClass>
 		</graphicData>
 		<selectable>true</selectable>
@@ -118,14 +118,14 @@
 	<!--Plasteel Plant-->
 
 	<ThingDef ParentName="MRC_PlantBaseMysticalCrops">
-		<defName>MRC_PlasteelPlant</defName>
+		<defName>MRC_PlantPlasteel</defName>
 		<label>Plasteehlius</label>
 		<description>:O, O_o!!</description>
 		<statBases>
 			<MaxHitPoints>999</MaxHitPoints>
 		</statBases>
 		<graphicData>
-			<texPath>Things/Plant/Crops/MRC_PlantSteel</texPath>
+			<texPath>Things/Plant/Crops/MRC_PlantPlasteel</texPath>
 			<graphicClass>Graphic_Random</graphicClass>
 		</graphicData>
 		<selectable>true</selectable>
@@ -163,7 +163,7 @@
 			<MaxHitPoints>400</MaxHitPoints>
 		</statBases>
 		<graphicData>
-			<texPath>Things/Plant/Crops/MRC_PlantSteel</texPath>
+			<texPath>Things/Plant/Crops/MRC_PlantUranium</texPath>
 			<graphicClass>Graphic_Random</graphicClass>
 		</graphicData>
 		<selectable>true</selectable>
@@ -202,7 +202,7 @@
 			<MaxHitPoints>300</MaxHitPoints>
 		</statBases>
 		<graphicData>
-			<texPath>Things/Plant/Crops/MRC_PlantSteel</texPath>
+			<texPath>Things/Plant/Crops/MRC_PlantJade</texPath>
 			<graphicClass>Graphic_Random</graphicClass>
 		</graphicData>
 		<selectable>true</selectable>
