@@ -3,16 +3,17 @@
     "",
     "\\1.2",
     "\\1.2\\Defs",
-    "\\1.2\\Defs\\ThingDefs_Plants",
+    "\\1.2\\Defs\\ResearchProjectDefs",
+    "\\1.2\\Defs\\RoomRoleDefs",
+    "\\1.2\\Defs\\ThingDefs_Buildings",
+    "\\1.2\\Patches",
+    "\\About",
     "\\Textures",
     "\\Textures\\Things",
-    "\\Textures\\Things\\Building",
-    "\\Textures\\Things\\Building\\Misc",
     "\\Textures\\Things\\Plant",
     "\\Textures\\Things\\Plant\\Crops",
-    "\\Textures\\Things\\Plant\\Crops\\MRC_PlantGold",
     "\\Textures\\Things\\Plant\\Crops\\MRC_PlantPlasteel"
   ],
-  "SelectedNode": "\\1.2\\Defs\\ThingDefs_Buildings",
+  "SelectedNode": "\\1.2\\Patches",
   "PreviewInSolutionExplorer": false
 }
