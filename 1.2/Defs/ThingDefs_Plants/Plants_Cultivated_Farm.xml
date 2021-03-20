@@ -123,7 +123,7 @@
 			<fertilitySensitivity>-0.75</fertilitySensitivity>
 			<sowMinSkill>14</sowMinSkill>
 			<sowResearchPrerequisites>
-				<li>MRC_PlantPlasteel</li>
+				<li>MRC_PlantUranium</li>
 			</sowResearchPrerequisites>
 		</plant>
 	</ThingDef>
@@ -155,7 +155,7 @@
 			<fertilitySensitivity>-0.75</fertilitySensitivity>
 			<sowMinSkill>14</sowMinSkill>
 			<sowResearchPrerequisites>
-				<li>MRC_PlantPlasteel</li>
+				<li>MRC_PlantJade</li>
 			</sowResearchPrerequisites>
 		</plant>
 	</ThingDef>

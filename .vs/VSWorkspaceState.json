@@ -4,7 +4,12 @@
     "\\1.2",
     "\\1.2\\Defs",
     "\\1.2\\Defs\\ResearchProjectDefs",
-    "\\1.2\\Defs\\ThingDefs_Plants"
+    "\\1.2\\Defs\\ThingDefs_Buildings",
+    "\\1.2\\Defs\\ThingDefs_Plants",
+    "\\Textures\\Things",
+    "\\Textures\\Things\\Building",
+    "\\Textures\\Things\\Building\\Misc",
+    "\\Textures\\Things\\Plant\\Crops"
   ],
   "SelectedNode": "\\1.2\\Defs\\ResearchProjectDefs\\ResearchProjects_plants.xml",
   "PreviewInSolutionExplorer": false
