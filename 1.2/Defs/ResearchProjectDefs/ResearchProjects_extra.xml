@@ -8,7 +8,7 @@
 		<label>mystical analyzer</label>
 		<description>enables construction of the mystical analyzer.</description>
 		<baseCost>10000</baseCost>
-		<techLevel>Medival</techLevel>
+		<techLevel>Industrial</techLevel>
 		<prerequisites>
 			<li>TreeSowing</li>
 			<li>Devilstrand</li>
