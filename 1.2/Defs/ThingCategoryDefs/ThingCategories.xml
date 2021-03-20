@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+    <ThingCategoryDef>
+        <defName>MRC_PlantEssence</defName>
+        <label>plant essences</label>
+        <parent>PlantMatter</parent>
+        <resourceReadoutRoot>true</resourceReadoutRoot>
+        <iconPath>UI/Icons/ThingCategories/PlantEssence</iconPath>
+    </ThingCategoryDef>
+</Defs>

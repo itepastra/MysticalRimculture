@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <RecipeDef Name="MRC_RefineEssenceBase" Abstract="True">
+    <jobString>Refining essences to resources.</jobString>
+    <workAmount>1600</workAmount>
+    <workSpeedStat>MRC_EssenceRefiningSpeed</workSpeedStat>
+    <effectWorking>Cremate</effectWorking>
+    <soundWorking>Recipe_Cremate</soundWorking>
+    <targetCountAdjustment>1</targetCountAdjustment>
+    <recipeUsers>
+      <li>MRC_EssenceRefinery</li>
+    </recipeUsers>
+  </RecipeDef>
+
+  <RecipeDef ParentName="MRC_RefineEssenceBase">
+    <defName>MRC_Refine_EssenceAny</defName>
+    <label>refine any essence</label>
+    <description>extract materials from mystical essence.</description>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>MRC_PlantEssence</li>
+          </categories>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <categories>
+        <li>MRC_PlantEssence</li>
+      </categories>
+    </fixedIngredientFilter>
+    <specialProducts>
+      <li>Butchery</li>
+    </specialProducts>
+  </RecipeDef>
+</Defs>

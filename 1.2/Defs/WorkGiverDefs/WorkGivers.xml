@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <!-- ============= Essence Refining ============= -->
+
+    <WorkGiverDef>
+        <defName>MRC_EssenceRefining</defName>
+        <label>refine essences</label>
+        <giverClass>WorkGiver_DoBill</giverClass>
+        <workType>Crafting</workType>
+        <priorityInType>69</priorityInType>
+        <fixedBillGiverDefs>
+          <li>MRC_EssenceRefinery</li>
+        </fixedBillGiverDefs>
+        <verb>essence refine</verb>
+        <gerund>refining essence at</gerund>
+        <prioritizeSustains>true</prioritizeSustains>
+        <requiredCapacities>
+          <li>Manipulation</li>
+        </requiredCapacities>
+    </WorkGiverDef>
+</Defs>
