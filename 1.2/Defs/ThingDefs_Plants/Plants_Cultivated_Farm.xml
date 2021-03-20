@@ -152,4 +152,81 @@
 			<wildOrder>2</wildOrder>
 		</plant>
 	</ThingDef>
+
+	<!--Uranium Plant-->
+
+	<ThingDef ParentName="MRC_PlantBaseMysticalCrops">
+		<defName>MRC_PlantUranium</defName>
+		<label>Radioactivus</label>
+		<description>Im not feeling well anymore</description>
+		<statBases>
+			<MaxHitPoints>400</MaxHitPoints>
+		</statBases>
+		<graphicData>
+			<texPath>Things/Plant/Crops/MRC_PlantSteel</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+		</graphicData>
+		<selectable>true</selectable>
+		<pathCost>120</pathCost>
+		<plant>
+			<growDays>20</growDays>
+			<sowWork>500</sowWork>
+			<dieIfLeafless>false</dieIfLeafless>
+			<harvestTag>Standard</harvestTag>
+			<harvestedThingDef>Uranium</harvestedThingDef>
+			<harvestYield>1</harvestYield>
+			<neverBlightable>true</neverBlightable>
+			<sowTags>
+				<li>Ground</li>
+				<li>Hydroponic</li>
+			</sowTags>
+			<fertilitySensitivity>-0.75</fertilitySensitivity>
+			<sowMinSkill>14</sowMinSkill>
+			<sowResearchPrerequisites>
+				<li>MRC_PlantPlasteel</li>
+			</sowResearchPrerequisites>
+			<topWindExposure>0.1</topWindExposure>
+			<visualSizeRange>0.3~1.0</visualSizeRange>
+			<wildOrder>2</wildOrder>
+		</plant>
+	</ThingDef>
+
+	
+	<!--Jade Plant-->
+
+	<ThingDef ParentName="MRC_PlantBaseMysticalCrops">
+		<defName>MRC_PlantJade</defName>
+		<label>#00FF00</label>
+		<description>:O</description>
+		<statBases>
+			<MaxHitPoints>300</MaxHitPoints>
+		</statBases>
+		<graphicData>
+			<texPath>Things/Plant/Crops/MRC_PlantSteel</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+		</graphicData>
+		<selectable>true</selectable>
+		<pathCost>120</pathCost>
+		<plant>
+			<growDays>20</growDays>
+			<sowWork>500</sowWork>
+			<dieIfLeafless>false</dieIfLeafless>
+			<harvestTag>Standard</harvestTag>
+			<harvestedThingDef>Uranium</harvestedThingDef>
+			<harvestYield>1</harvestYield>
+			<neverBlightable>true</neverBlightable>
+			<sowTags>
+				<li>Ground</li>
+				<li>Hydroponic</li>
+			</sowTags>
+			<fertilitySensitivity>-0.75</fertilitySensitivity>
+			<sowMinSkill>14</sowMinSkill>
+			<sowResearchPrerequisites>
+				<li>MRC_PlantPlasteel</li>
+			</sowResearchPrerequisites>
+			<topWindExposure>0.1</topWindExposure>
+			<visualSizeRange>0.3~1.0</visualSizeRange>
+			<wildOrder>2</wildOrder>
+		</plant>
+	</ThingDef>
 </Defs>
