@@ -15,8 +15,8 @@
 			<li>Cocoa</li>
 		</prerequisites>
 		<tab>MRC_MysticalPlants</tab>
-		<researchViewX>0.5</researchViewX>
-		<researchViewY>3</researchViewY>
+		<researchViewX>0.25</researchViewX>
+		<researchViewY>2</researchViewY>
 	</ResearchProjectDef>
 
 </Defs>
