@@ -15,8 +15,8 @@
 		</graphicData>
 		<plant>
 			<dieIfLeafless>false</dieIfLeafless>
-			<harvestedThingDef>Steel</harvestedThingDef>
-			<harvestYield>5</harvestYield>
+			<harvestedThingDef>MRC_PlantSteelEssence</harvestedThingDef>
+			<harvestYield>1</harvestYield>
 			<fertilitySensitivity>-1.0</fertilitySensitivity>
 			<sowMinSkill>10</sowMinSkill>
 			<sowResearchPrerequisites>
@@ -40,8 +40,8 @@
 		<plant>
 			<growDays>20</growDays>
 			<sowWork>600</sowWork>
-			<harvestedThingDef>Gold</harvestedThingDef>
-			<harvestYield>2</harvestYield>
+			<harvestedThingDef>MRC_PlantGoldEssence</harvestedThingDef>
+			<harvestYield>1</harvestYield>
 			<fertilitySensitivity>-0.5</fertilitySensitivity>
 			<sowMinSkill>12</sowMinSkill>
 			<sowResearchPrerequisites>
@@ -65,8 +65,8 @@
 		<plant>
 			<growDays>20</growDays>
 			<sowWork>600</sowWork>
-			<harvestedThingDef>Silver</harvestedThingDef>
-			<harvestYield>2</harvestYield>
+			<harvestedThingDef>MRC_PlantSilverEssence</harvestedThingDef>
+			<harvestYield>1</harvestYield>
 			<fertilitySensitivity>0.5</fertilitySensitivity>
 			<sowMinSkill>8</sowMinSkill>
 			<sowResearchPrerequisites>
@@ -91,7 +91,7 @@
 		<plant>
 			<growDays>35</growDays>
 			<sowWork>1000</sowWork>
-			<harvestedThingDef>Plasteel</harvestedThingDef>
+			<harvestedThingDef>MRC_PlantPlasteelEssence</harvestedThingDef>
 			<harvestYield>1</harvestYield>
 			<fertilitySensitivity>-0.1</fertilitySensitivity>
 			<sowMinSkill>18</sowMinSkill>
@@ -118,7 +118,7 @@
 		<plant>
 			<growDays>20</growDays>
 			<sowWork>500</sowWork>
-			<harvestedThingDef>Uranium</harvestedThingDef>
+			<harvestedThingDef>MRC_PlantUraniumEssence</harvestedThingDef>
 			<harvestYield>1</harvestYield>
 			<fertilitySensitivity>-0.75</fertilitySensitivity>
 			<sowMinSkill>14</sowMinSkill>
@@ -146,7 +146,7 @@
 		<plant>
 			<growDays>20</growDays>
 			<sowWork>500</sowWork>
-			<harvestedThingDef>Jade</harvestedThingDef>
+			<harvestedThingDef>MRC_PlantJadeEssence</harvestedThingDef>
 			<harvestYield>1</harvestYield>
 			<sowTags>
 				<li>Ground</li>

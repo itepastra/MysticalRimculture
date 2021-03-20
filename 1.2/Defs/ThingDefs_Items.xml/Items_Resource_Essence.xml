@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <ThingDef Abstract="True" Name="MRC_EssenceBase" ParentName="ResourceBase">
+        <graphicData>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <statBases>
+            <MaxHitPoints>60</MaxHitPoints>
+            <Flammability>1.0</Flammability>
+            <DeteriorationRate>6</DeteriorationRate>
+            <Mass>0.03</Mass>
+        </statBases>
+        <tickerType>Rare</tickerType>
+        <healthAffectsPrice>false</healthAffectsPrice>
+        <thingCategories>
+            <li>MRC_PlantEssence</li>
+        </thingCategories>
+    </ThingDef>
+
+    <ThingDef ParentName="MRC_EssenceBase">
+        <defName>MRC_PlantSteelEssence</defName>
+        <label>steelium essence</label>
+        <description>steelium plant essence.</description>
+        <graphicData>
+            <texPath>Things/Item/Resource/Essence/PlantSteelEssence</texPath>
+        </graphicData>
+        <statBases>
+            <MarketValue>1.6</MarketValue>
+            <Flammability>0.3</Flammability>
+        </statBases>
+        <butcherProducts>
+            <Steel>5</Steel>
+        </butcherProducts>
+    </ThingDef>
+
+    <ThingDef ParentName="MRC_EssenceBase">
+        <defName>MRC_PlantSilverEssence</defName>
+        <label>silvery essence</label>
+        <description>steelium plant essence.</description>
+        <graphicData>
+            <texPath>Things/Item/Resource/Essence/PlantSteelEssence</texPath>
+        </graphicData>
+        <statBases>
+            <MarketValue>1.6</MarketValue>
+            <Flammability>0.3</Flammability>
+        </statBases>
+        <butcherProducts>
+            <Silver>10</Silver>
+        </butcherProducts>
+    </ThingDef>
+
+    <ThingDef ParentName="MRC_EssenceBase">
+        <defName>MRC_PlantGoldEssence</defName>
+        <label>auric essence</label>
+        <description>steelium plant essence.</description>
+        <graphicData>
+            <texPath>Things/Item/Resource/Essence/PlantSteelEssence</texPath>
+        </graphicData>
+        <statBases>
+            <MarketValue>1.6</MarketValue>
+            <Flammability>0.3</Flammability>
+        </statBases>
+        <butcherProducts>
+            <Gold>2</Gold>
+        </butcherProducts>
+    </ThingDef>
+
+    <ThingDef ParentName="MRC_EssenceBase">
+        <defName>MRC_PlantUraniumEssence</defName>
+        <label>radioactive essence</label>
+        <description>steelium plant essence.</description>
+        <graphicData>
+            <texPath>Things/Item/Resource/Essence/PlantSteelEssence</texPath>
+        </graphicData>
+        <statBases>
+            <MarketValue>1.6</MarketValue>
+            <Flammability>0.3</Flammability>
+        </statBases>
+        <butcherProducts>
+            <Uranium>2</Uranium>
+        </butcherProducts>
+    </ThingDef>
+
+    <ThingDef ParentName="MRC_EssenceBase">
+        <defName>MRC_PlantJadeEssence</defName>
+        <label>#00FF00 essence</label>
+        <description>steelium plant essence.</description>
+        <graphicData>
+            <texPath>Things/Item/Resource/Essence/PlantSteelEssence</texPath>
+        </graphicData>
+        <statBases>
+            <MarketValue>1.6</MarketValue>
+            <Flammability>0.3</Flammability>
+        </statBases>
+        <butcherProducts>
+            <Jade>1</Jade>
+        </butcherProducts>
+    </ThingDef>
+    
+    <ThingDef ParentName="MRC_EssenceBase">
+        <defName>MRC_PlantPlasteelEssence</defName>
+        <label>plasteel essence</label>
+        <description>steelium plant essence.</description>
+        <graphicData>
+            <texPath>Things/Item/Resource/Essence/PlantSteelEssence</texPath>
+        </graphicData>
+        <statBases>
+            <MarketValue>1.6</MarketValue>
+            <Flammability>0.3</Flammability>
+        </statBases>
+        <butcherProducts>
+            <Plasteel>1</Plasteel>
+        </butcherProducts>
+    </ThingDef>
+</Defs>
