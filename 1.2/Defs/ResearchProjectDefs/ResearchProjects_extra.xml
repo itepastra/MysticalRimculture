@@ -19,4 +19,17 @@
 		<researchViewY>2</researchViewY>
 	</ResearchProjectDef>
 
+	<ResearchProjectDef>
+		<defName>MRC_EssenceRefining</defName>
+		<label>essence refining</label>
+		<description>enables refining plant essence into useful materials.</description>
+		<baseCost>500</baseCost>
+		<techLevel>Industrial</techLevel>
+		<prerequisites>
+			<li>MRC_MysticalAnalyzer</li>
+		</prerequisites>
+		<tab>MRC_MysticalPlants</tab>
+		<researchViewX>1</researchViewX>
+		<researchViewY>2.75</researchViewY>
+	</ResearchProjectDef>
 </Defs>
