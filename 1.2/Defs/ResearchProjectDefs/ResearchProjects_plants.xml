@@ -16,5 +16,20 @@
         <tab>MRC_MysticalPlants</tab>
 	</ResearchProjectDef>
 
-
+	<ResearchProjectDef>
+		<defName>MRC_PlantGold</defName>
+		<label>Auriumus</label>
+		<description>Ohhhhh?! Shiny!</description>
+		<baseCost>2500</baseCost>
+		<techLevel>Medieval</techLevel>
+		<prerequisites>
+			<li>MRC_MysticalAnalyzer</li>
+			<li>MRC_PlantSteel</li>
+		</prerequisites>
+		<requiredResearchFacilities>
+			<li>MRC_MysticalAnalyzer</li>
+		</requiredResearchFacilities>
+		<tab>MRC_MysticalPlants</tab>
+	</ResearchProjectDef>
+	
 </Defs>

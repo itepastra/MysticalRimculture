@@ -69,7 +69,7 @@
 			<fertilitySensitivity>-0.5</fertilitySensitivity>
 			<sowMinSkill>12</sowMinSkill>
 			<sowResearchPrerequisites>
-				<li>MRC_PlantSteel</li>
+				<li>MRC_PlantGold</li>
 			</sowResearchPrerequisites>
 			<topWindExposure>0.1</topWindExposure>
 			<visualSizeRange>0.3~1.0</visualSizeRange>
