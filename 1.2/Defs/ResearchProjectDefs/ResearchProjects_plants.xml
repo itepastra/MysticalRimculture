@@ -78,7 +78,7 @@
 		</requiredResearchFacilities>
 		<tab>MRC_MysticalPlants</tab>
 		<researchViewX>3</researchViewX>
-		<researchViewY>2.7</researchViewY>
+		<researchViewY>2</researchViewY>
 	</ResearchProjectDef>
 
 	<!--Jade Plant research-->
@@ -117,6 +117,6 @@
 		</requiredResearchFacilities>
 		<tab>MRC_MysticalPlants</tab>
 		<researchViewX>2.0</researchViewX>
-		<researchViewY>2.75</researchViewY>
+		<researchViewY>2.0</researchViewY>
 	</ResearchProjectDef>
 </Defs>
