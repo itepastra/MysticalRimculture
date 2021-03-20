@@ -6,7 +6,7 @@
 	<ThingDef ParentName="MRC_PlantBaseMysticalCrops">
 		<defName>MRC_PlantSteel</defName>
 		<label>Steelium</label>
-		<description>A not very flammable plant that has extraordinary strength.</description>
+		<description>A not very flammable plant that has extraordinary strength.</description>visu
 		<statBases>
 			<MaxHitPoints>250</MaxHitPoints>
 		</statBases>
