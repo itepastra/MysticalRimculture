@@ -4,7 +4,30 @@
     <ThingDef ParentName="PlantBaseNonEdible" Name="MRC_PlantBaseMysticalCrops" Abstract="True">
         <statBases>
             <Flammability>0.31</Flammability>
+            <MaxHitPoints>250</MaxHitPoints>
         </statBases>
+		<selectable>true</selectable>
+        <pathCost>69</pathCost>
+        <graphicData>
+            <graphicClass>Graphic_Random</graphicClass>
+            <shaderType>CutoutPlant</shaderType>
+        </graphicData>
+        <plant>
+			<growDays>11</growDays>
+            <dieIfLeafless>false</dieIfLeafless>
+			<harvestTag>Standard</harvestTag>
+            <neverBlightable>true</neverBlightable>
+            <sowMinSkill>10</sowMinSkill>
+            <sowWork>400</sowWork>
+            <sowTags>
+                <li>Ground</li>
+                <li>Hydroponic</li>
+            </sowTags>
+            <fertilitySensitivity>-0.5</fertilitySensitivity>
+            <harvestWork>400</harvestWork>
+            <topWindExposure>0.1</topWindExposure>
+            <visualSizeRange>0.3~1.0</visualSizeRange>
+            <wildOrder>2</wildOrder>
+        </plant>
     </ThingDef>
-
 </Defs>

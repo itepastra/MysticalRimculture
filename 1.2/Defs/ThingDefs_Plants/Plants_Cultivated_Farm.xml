@@ -12,30 +12,16 @@
 		</statBases>
 		<graphicData>
 			<texPath>Things/Plant/Crops/MRC_PlantSteel</texPath>
-			<graphicClass>Graphic_Random</graphicClass>
 		</graphicData>
-		<selectable>true</selectable>
-		<pathCost>69</pathCost>
 		<plant>
-			<growDays>11</growDays>
-			<sowWork>400</sowWork>
 			<dieIfLeafless>false</dieIfLeafless>
-			<harvestTag>Standard</harvestTag>
 			<harvestedThingDef>Steel</harvestedThingDef>
 			<harvestYield>5</harvestYield>
-			<neverBlightable>true</neverBlightable>
-			<sowTags>
-				<li>Ground</li>
-				<li>Hydroponic</li>
-			</sowTags>
 			<fertilitySensitivity>-1.0</fertilitySensitivity>
 			<sowMinSkill>10</sowMinSkill>
 			<sowResearchPrerequisites>
 				<li>MRC_PlantSteel</li>
 			</sowResearchPrerequisites>
-			<topWindExposure>0.1</topWindExposure>
-			<visualSizeRange>0.3~1.0</visualSizeRange>
-			<wildOrder>2</wildOrder>
 		</plant>
 	</ThingDef>
 
@@ -50,30 +36,17 @@
 		</statBases>
 		<graphicData>
 			<texPath>Things/Plant/Crops/MRC_PlantGold</texPath>
-			<graphicClass>Graphic_Random</graphicClass>
 		</graphicData>
-		<selectable>true</selectable>
-		<pathCost>69</pathCost>
 		<plant>
 			<growDays>20</growDays>
 			<sowWork>600</sowWork>
-			<dieIfLeafless>false</dieIfLeafless>
-			<harvestTag>Standard</harvestTag>
 			<harvestedThingDef>Gold</harvestedThingDef>
 			<harvestYield>2</harvestYield>
-			<neverBlightable>true</neverBlightable>
-			<sowTags>
-				<li>Ground</li>
-				<li>Hydroponic</li>
-			</sowTags>
 			<fertilitySensitivity>-0.5</fertilitySensitivity>
 			<sowMinSkill>12</sowMinSkill>
 			<sowResearchPrerequisites>
 				<li>MRC_PlantGold</li>
 			</sowResearchPrerequisites>
-			<topWindExposure>0.1</topWindExposure>
-			<visualSizeRange>0.3~1.0</visualSizeRange>
-			<wildOrder>2</wildOrder>
 		</plant>
 	</ThingDef>
 
@@ -88,30 +61,17 @@
 		</statBases>
 		<graphicData>
 			<texPath>Things/Plant/Crops/MRC_PlantSilver</texPath>
-			<graphicClass>Graphic_Random</graphicClass>
 		</graphicData>
-		<selectable>true</selectable>
-		<pathCost>69</pathCost>
 		<plant>
 			<growDays>20</growDays>
 			<sowWork>600</sowWork>
-			<dieIfLeafless>false</dieIfLeafless>
-			<harvestTag>Standard</harvestTag>
 			<harvestedThingDef>Silver</harvestedThingDef>
 			<harvestYield>2</harvestYield>
-			<neverBlightable>true</neverBlightable>
-			<sowTags>
-				<li>Ground</li>
-				<li>Hydroponic</li>
-			</sowTags>
 			<fertilitySensitivity>0.5</fertilitySensitivity>
 			<sowMinSkill>8</sowMinSkill>
 			<sowResearchPrerequisites>
 				<li>MRC_PlantSilver</li>
 			</sowResearchPrerequisites>
-			<topWindExposure>0.1</topWindExposure>
-			<visualSizeRange>0.3~1.0</visualSizeRange>
-			<wildOrder>2</wildOrder>
 		</plant>
 	</ThingDef>
 
@@ -126,30 +86,18 @@
 		</statBases>
 		<graphicData>
 			<texPath>Things/Plant/Crops/MRC_PlantPlasteel</texPath>
-			<graphicClass>Graphic_Random</graphicClass>
 		</graphicData>
-		<selectable>true</selectable>
 		<pathCost>100</pathCost>
 		<plant>
 			<growDays>35</growDays>
 			<sowWork>1000</sowWork>
-			<dieIfLeafless>false</dieIfLeafless>
-			<harvestTag>Standard</harvestTag>
 			<harvestedThingDef>Plasteel</harvestedThingDef>
 			<harvestYield>1</harvestYield>
-			<neverBlightable>true</neverBlightable>
-			<sowTags>
-				<li>Ground</li>
-				<li>Hydroponic</li>
-			</sowTags>
 			<fertilitySensitivity>-0.1</fertilitySensitivity>
 			<sowMinSkill>18</sowMinSkill>
 			<sowResearchPrerequisites>
 				<li>MRC_PlantPlasteel</li>
 			</sowResearchPrerequisites>
-			<topWindExposure>0.1</topWindExposure>
-			<visualSizeRange>0.3~1.0</visualSizeRange>
-			<wildOrder>2</wildOrder>
 		</plant>
 	</ThingDef>
 
@@ -164,30 +112,19 @@
 		</statBases>
 		<graphicData>
 			<texPath>Things/Plant/Crops/MRC_PlantUranium</texPath>
-			<graphicClass>Graphic_Random</graphicClass>
 		</graphicData>
 		<selectable>true</selectable>
 		<pathCost>120</pathCost>
 		<plant>
 			<growDays>20</growDays>
 			<sowWork>500</sowWork>
-			<dieIfLeafless>false</dieIfLeafless>
-			<harvestTag>Standard</harvestTag>
 			<harvestedThingDef>Uranium</harvestedThingDef>
 			<harvestYield>1</harvestYield>
-			<neverBlightable>true</neverBlightable>
-			<sowTags>
-				<li>Ground</li>
-				<li>Hydroponic</li>
-			</sowTags>
 			<fertilitySensitivity>-0.75</fertilitySensitivity>
 			<sowMinSkill>14</sowMinSkill>
 			<sowResearchPrerequisites>
 				<li>MRC_PlantPlasteel</li>
 			</sowResearchPrerequisites>
-			<topWindExposure>0.1</topWindExposure>
-			<visualSizeRange>0.3~1.0</visualSizeRange>
-			<wildOrder>2</wildOrder>
 		</plant>
 	</ThingDef>
 
@@ -203,18 +140,14 @@
 		</statBases>
 		<graphicData>
 			<texPath>Things/Plant/Crops/MRC_PlantJade</texPath>
-			<graphicClass>Graphic_Random</graphicClass>
 		</graphicData>
 		<selectable>true</selectable>
 		<pathCost>120</pathCost>
 		<plant>
 			<growDays>20</growDays>
 			<sowWork>500</sowWork>
-			<dieIfLeafless>false</dieIfLeafless>
-			<harvestTag>Standard</harvestTag>
-			<harvestedThingDef>Uranium</harvestedThingDef>
+			<harvestedThingDef>Jade</harvestedThingDef>
 			<harvestYield>1</harvestYield>
-			<neverBlightable>true</neverBlightable>
 			<sowTags>
 				<li>Ground</li>
 				<li>Hydroponic</li>
@@ -224,9 +157,6 @@
 			<sowResearchPrerequisites>
 				<li>MRC_PlantPlasteel</li>
 			</sowResearchPrerequisites>
-			<topWindExposure>0.1</topWindExposure>
-			<visualSizeRange>0.3~1.0</visualSizeRange>
-			<wildOrder>2</wildOrder>
 		</plant>
 	</ThingDef>
 </Defs>
