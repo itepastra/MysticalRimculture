@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<!-- Adding of Grow room-->>
+	
+	<RoomRoleDef>
+		<defName>MRC_GrowRoom</defName>
+		<label>Grow Room</label>
+		<workerClass>RoomRoleWorker_Room</workerClass>
+		<relatedStats>
+			<li>Cleanliness</li>
+			<li>Space</li>
+		</relatedStats>
+	</RoomRoleDef>
+</Defs>
