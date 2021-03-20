@@ -14,7 +14,7 @@
 			<li>Devilstrand</li>
 			<li>Cocoa</li>
 		</prerequisites>
-		<researchViewX>1</researchViewX>
+		<researchViewX>0.5</researchViewX>
 		<researchViewY>3</researchViewY>
 	</ResearchProjectDef>
 
