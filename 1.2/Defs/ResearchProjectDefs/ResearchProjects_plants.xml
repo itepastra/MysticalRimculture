@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Defs>
 
-    <ResearchProjectDef>
+	<!--Steel Plant research-->
+
+	<ResearchProjectDef>
 		<defName>MRC_PlantSteel</defName>
 		<label>Steelium</label>
 		<description>A weirdly strong plant</description>
@@ -16,11 +18,14 @@
         <tab>MRC_MysticalPlants</tab>
 	</ResearchProjectDef>
 
+	
+	<!--Silver research-->
+
 	<ResearchProjectDef>
-		<defName>MRC_PlantGold</defName>
-		<label>Auriumus</label>
-		<description>Ohhhhh?! Shiny!</description>
-		<baseCost>2500</baseCost>
+		<defName>MRC_PlantSilver</defName>
+		<label>Silverium</label>
+		<description>Ohhhhh?! MONEY!</description>
+		<baseCost>1250</baseCost>
 		<techLevel>Medieval</techLevel>
 		<prerequisites>
 			<li>MRC_MysticalAnalyzer</li>
@@ -32,4 +37,22 @@
 		<tab>MRC_MysticalPlants</tab>
 	</ResearchProjectDef>
 	
+
+	<!--Gold Plant research-->
+
+	<ResearchProjectDef>
+		<defName>MRC_PlantGold</defName>
+		<label>Auriumus</label>
+		<description>Ohhhhh?! Shiny!</description>
+		<baseCost>2500</baseCost>
+		<techLevel>Medieval</techLevel>
+		<prerequisites>
+			<li>MRC_MysticalAnalyzer</li>
+			<li>MRC_PlantSilver</li>
+		</prerequisites>
+		<requiredResearchFacilities>
+			<li>MRC_MysticalAnalyzer</li>
+		</requiredResearchFacilities>
+		<tab>MRC_MysticalPlants</tab>
+	</ResearchProjectDef>
 </Defs>

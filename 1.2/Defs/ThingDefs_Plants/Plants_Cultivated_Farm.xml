@@ -76,4 +76,42 @@
 			<wildOrder>2</wildOrder>
 		</plant>
 	</ThingDef>
+
+	<!--Silver Plant-->
+
+	<ThingDef ParentName="MRC_PlantBaseMysticalCrops">
+		<defName>MRC_PlantSilver</defName>
+		<label>Silverium</label>
+		<description>Wooooow, IM RICH!!</description>
+		<statBases>
+			<MaxHitPoints>150</MaxHitPoints>
+		</statBases>
+		<graphicData>
+			<texPath>Things/Plant/Crops/MRC_PlantSteel</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+		</graphicData>
+		<selectable>true</selectable>
+		<pathCost>69</pathCost>
+		<plant>
+			<growDays>20</growDays>
+			<sowWork>600</sowWork>
+			<dieIfLeafless>false</dieIfLeafless>
+			<harvestTag>Standard</harvestTag>
+			<harvestedThingDef>Silver</harvestedThingDef>
+			<harvestYield>2</harvestYield>
+			<neverBlightable>true</neverBlightable>
+			<sowTags>
+				<li>Ground</li>
+				<li>Hydroponic</li>
+			</sowTags>
+			<fertilitySensitivity>0.5</fertilitySensitivity>
+			<sowMinSkill>8</sowMinSkill>
+			<sowResearchPrerequisites>
+				<li>MRC_PlantSilver</li>
+			</sowResearchPrerequisites>
+			<topWindExposure>0.1</topWindExposure>
+			<visualSizeRange>0.3~1.0</visualSizeRange>
+			<wildOrder>2</wildOrder>
+		</plant>
+	</ThingDef>
 </Defs>
